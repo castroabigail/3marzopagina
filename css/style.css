@@ -1,7 +1,7 @@
 li{
 	list-style: none;
-	padding: 15px;
-	margin-top: 50px;
+	padding: 8px;
+	margin-top: 20px;
 }
 a{
 	text-decoration: none;
@@ -11,15 +11,81 @@ a{
 	margin-left: 40px;
 
 }
-#uno:hover {
-  background: blue;
+.opciones:hover {
+  background: white;
+  font-style: color black;
 }
-#dos:hover {
-  background: purple;
+.opciones:hover{
+	font-style: color black;
+
 }
-#tres:hover {
-  background: brown;
+
+.menuizq{
+	background-color: red;
+	height: 680px;
+	width: 380px;
+	
 }
-#cuatro:hover {
-  background: turquoise;
+.uno{
+	background-color: red;
+	margin-top: 50px;
+	height: 30px;
+}
+h1{
+	color: white;
+	margin-top: 100px;
+	margin-left: 45px;
+}
+h2{
+	margin-left: 400px;
+	font-size: 60px;
+	margin-top: 75px;
+}
+.imagenuno{
+	width: 90%;
+	margin-left: 400px;
+	margin-top: -550px;
+}
+.imagendos{
+	width: 90%;
+	margin-left: 760px;
+	margin-top: -550px;
+}
+.imagentres{
+	width: 90%;
+	margin-left: 400px;
+	margin-top: 10px;
+}
+.imagencuatro{
+	width: 90%;
+	margin-left: 760px;
+	margin-top: -550px;
+}
+h3{
+	margin-left: 400px;
+	font-size: 40px;
+	margin-top: 50px;
+	color: red;
+}
+.imagencinco{
+	width: 90%;
+	margin-left: 400px;
+	margin-top: 10px;
+}
+.imagenseis{
+	width: 90%;
+	margin-left: 760px;
+	margin-top: -900px;
+}
+.titulo2{
+	color: blue;
+	margin-top: 450px;
+}
+.parrafo1{
+	margin-right: -90px;
+	margin-left: 80px;
+	background-color: red;
+}
+.cuadromenu{
+	position: fixed;
 }
